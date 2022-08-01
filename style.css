@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: lightblue;
+	font-family: "Arial", sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 20px;
+}
+
+button {
+	background-color: darkblue;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+	border: none;
+	background-color:rgba(252, 153, 20, 0.8);
+	border-radius: 5px;
+	box-shadow: -webkit-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+				-moz-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+				box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+}
+
+button:hover {
+	background-color: lightpink;
+	cursor: pointer;
+}
+
+/*Class section*/
+.title {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	padding: 10px;
+	margin: 10px;
+}
+
+.background {
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+}
+
+.li-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 5px;
+}
+
+.taskClass {
+	font-family: "Arial", sans-serif;
+	padding: 10px;
+	margin: 10px;
+}
+
+.deleteClass {
+	display: flex;
+	background-color: darkblue;
+	color: white;
+}
+
+/*Id section*/
+#first {
+	display: flex;
+	justify-content: center;
+}
+
+#userinput {
+	margin-right: 1rem;
+}
+
+
+#list {
+	list-style: none;
+
+}
+
+#enter, 
+#clear {
+	background-color: darkblue;
+	color: white;
+}
